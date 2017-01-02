@@ -1,0 +1,38 @@
+{
+  "name": "rxjs-flow",
+  "version": "1.0.0",
+  "description": "redux like library with usage of rxjs",
+  "main": "lib/gene.js",
+  "scripts": {
+    "clean": "rimraf lib",
+    "build": "npm run clean && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warash/immutable-gene.git"
+  },
+  "keywords": [
+    "immutable",
+    "redux",
+    "flux",
+    "ngrx",
+    "modifier",
+    "mutate",
+    "reducer"
+  ],
+  "author": "Michal Majewski <majewski9@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/warash/immutable-gene/issues"
+  },
+  "homepage": "https://github.com/warash/immutable-gene#readme",
+  "dependencies": {
+    "lodash": "^4.16",
+    "rxjs": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "4.14.38",
+    "@types/node": "6.0.46",
+    "rimraf": "2.5.4"
+  }
+}
